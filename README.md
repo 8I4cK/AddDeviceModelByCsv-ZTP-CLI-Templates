@@ -13,32 +13,21 @@ To include ZTP and CLI templates to Offline Device Models in FortiManager by CLI
 9. end
 
 Once the above commands have been entered and the template has been saved, you can check to see if the template has been added by using the "get system fortimanager" command.
+como incluir modelos ZTP e CLI para modelos de dispositivos offline no fortmanager por CLI?
 
-como criar um blueprint de 10 modelos de dispositivos no fortmanager com arquivo csv?
+Para incluir modelos ZTP e CLI para modelos de dispositivos offline no FortiManager pela CLI, você precisará usar os seguintes comandos:
 
-1. Abra o FortManager e navegue até a seção "Modelos de dispositivo".
+1. config system fortimanager
+2. definir modelo de dispositivo offline <model_name>
+3. config device-model-template
+4. defina o tipo {ztp | cli}
+5. definir modelo <template_name>
+6. definir template-data <template_data>
+7. fim
+8. fim
+9. fim
 
-2. Clique no botão "Importar" próximo ao topo da página.
-
-3. Selecione a opção "Arquivo CSV" no menu suspenso.
-
-4. Selecione o arquivo CSV contendo seus 10 modelos de dispositivos.
-
-5. Mapeie as colunas do arquivo CSV para os campos apropriados no FortManager.
-
-6. Clique no botão "Importar" e aguarde a conclusão da importação.
-
-7. Após a conclusão da importação, você verá todos os 10 modelos de dispositivos listados na seção Modelos de dispositivos.
-
-8. Selecione cada modelo de dispositivo e defina as configurações apropriadas para cada um.
-
-9. Depois de definir todas as configurações, clique no botão "Salvar" na parte inferior da página.
-
-10. Repita as etapas 8 e 9 para cada um dos 10 modelos de dispositivos.
-
-Depois de concluir as etapas acima, você deve ter criado com sucesso um modelo de 10 modelos de dispositivos no FortManager usando um arquivo CSV.
-
-
+Depois que os comandos acima forem inseridos e o modelo salvo, você poderá verificar se o modelo foi adicionado usando o comando "get system fortimanager".
 
 ##### AddDeviceModelByCsv
 Esse é um script para adicionar vários Device Models blueprint de uma só vez no FortiManager via CSV.
