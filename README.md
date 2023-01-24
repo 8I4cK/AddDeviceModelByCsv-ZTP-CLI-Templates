@@ -26,3 +26,29 @@ how to create a 10 Device Models blueprint in fortmanager with csv file?
 
 Once you have completed the above steps, you should have successfully created a 10 device models blueprint in FortManager using a CSV file.
 
+-----------
+
+
+como criar um blueprint de 10 modelos de dispositivos no fortmanager com arquivo csv?
+
+1. Abra o FortManager e navegue até a seção "Modelos de dispositivo".
+
+2. Clique no botão "Importar" próximo ao topo da página.
+
+3. Selecione a opção "Arquivo CSV" no menu suspenso.
+
+4. Selecione o arquivo CSV contendo seus 10 modelos de dispositivos.
+
+5. Mapeie as colunas do arquivo CSV para os campos apropriados no FortManager.
+
+6. Clique no botão "Importar" e aguarde a conclusão da importação.
+
+7. Após a conclusão da importação, você verá todos os 10 modelos de dispositivos listados na seção Modelos de dispositivos.
+
+8. Selecione cada modelo de dispositivo e defina as configurações apropriadas para cada um.
+
+9. Depois de definir todas as configurações, clique no botão "Salvar" na parte inferior da página.
+
+10. Repita as etapas 8 e 9 para cada um dos 10 modelos de dispositivos.
+
+Depois de concluir as etapas acima, você deve ter criado com sucesso um modelo de 10 modelos de dispositivos no FortManager usando um arquivo CSV.
