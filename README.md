@@ -1,4 +1,46 @@
-# AddDeviceModelByCsv
+how to include ZTP and CLI templates to Offline Device Models in fortmanager by CLI?
+
+To include ZTP and CLI templates to Offline Device Models in FortiManager by CLI, you will need to use the following commands:
+
+1. config system fortimanager
+2. set offline-device-model <model_name>
+3. config device-model-template
+4. set type {ztp | cli}
+5. set template <template_name>
+6. set template-data <template_data>
+7. end
+8. end
+9. end
+
+Once the above commands have been entered and the template has been saved, you can check to see if the template has been added by using the "get system fortimanager" command.
+
+como criar um blueprint de 10 modelos de dispositivos no fortmanager com arquivo csv?
+
+1. Abra o FortManager e navegue até a seção "Modelos de dispositivo".
+
+2. Clique no botão "Importar" próximo ao topo da página.
+
+3. Selecione a opção "Arquivo CSV" no menu suspenso.
+
+4. Selecione o arquivo CSV contendo seus 10 modelos de dispositivos.
+
+5. Mapeie as colunas do arquivo CSV para os campos apropriados no FortManager.
+
+6. Clique no botão "Importar" e aguarde a conclusão da importação.
+
+7. Após a conclusão da importação, você verá todos os 10 modelos de dispositivos listados na seção Modelos de dispositivos.
+
+8. Selecione cada modelo de dispositivo e defina as configurações apropriadas para cada um.
+
+9. Depois de definir todas as configurações, clique no botão "Salvar" na parte inferior da página.
+
+10. Repita as etapas 8 e 9 para cada um dos 10 modelos de dispositivos.
+
+Depois de concluir as etapas acima, você deve ter criado com sucesso um modelo de 10 modelos de dispositivos no FortManager usando um arquivo CSV.
+
+
+
+##### AddDeviceModelByCsv
 Esse é um script para adicionar vários Device Models blueprint de uma só vez no FortiManager via CSV.
 
 
